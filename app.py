@@ -320,7 +320,7 @@ else:
         
         sub_col9, sub_col10 = st.columns(2)
         with sub_col9:
-            crr = st.number_input("Current Run Rate (CRR)", min_value=0.0, max_value=100.0, value=float(np.round(auto_crr, 2)), step=0.05)
+            crr = st.number_input("Current Run Rate (CRR)", min_value=0.0, max_value=500.0, value=float(np.round(auto_crr, 2)), step=0.05)
         with sub_col10:
             rrr = st.number_input("Required Run Rate (RRR)", min_value=0.0, max_value=500.0, value=float(np.round(auto_rrr, 2)), step=0.05)
             
